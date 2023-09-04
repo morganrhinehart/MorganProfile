@@ -1,0 +1,19 @@
+/* This is used to make comments in CSS*/
+
+/* Changes the body of the entire webpage color*/
+body {background-color: #92a8d1;}
+
+/* Changes the first paragraph labeled p1 in html script file*/
+.p1{background-color: whitesmoke;}
+
+/* To Change the image to have a rounded border*/
+.Myself {
+  border-radius: 50px}
+
+/* How to add an image to the background, only have one image, size and positioning the image*/
+body {
+      background-image: url('https://img.freepik.com/free-vector/floral-with-cherry-blossoms-full-bloom-pink_8130-710.jpg?w=740&t=st=1693354640~exp=1693355240~hmac=84e0a6a2d8cec519dd62c7a84816cdf6e2fe050818358a46d651d643692a1137');
+      background-repeat: no-repeat;
+      background-size: 6000px ;
+      background-position-x: right;
+     }

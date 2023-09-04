@@ -1,0 +1,111 @@
+<!--Simple Program to build Calculator in JavaScript-->  
+<!-- set doctument to html-->
+
+<!DOCTYPE html>
+<!-- set html attribute to english . 
+    good for search engines to return language specific outputs -->
+<html lang="en" dir="ltr" >
+    <!--Use head attribute to make the hold heading and css link -->
+<head>
+<!--meta charset lets browser know which character set to use 
+    when translating the script to vidualize -->
+<meta charset="utf-8">   
+
+<!--Link javascript file-->
+<script src="Javascript.js"></script>
+
+<!--Create / design Titles-->
+<h1 style align="center" ; >JavaScript Calculator </h1>    
+<h3 style align="center"> By Morgan Rhinehart </h3>
+
+<!--link CSS file for html to refer to -->
+<link rel="stylesheet" href="CSS Calculator.css" />
+
+<!--These div attribute makes buttons for the calculator but displayes horizonatally-->
+    <div class="calculator-grid">
+        <div class="output">
+            <div class="previous-operand"></div>
+            <div class="current-operand"></div>
+      <input class="result" type="text" name="display">
+        </div> <br>
+        <script></script>
+        <button class="span-two">AC</button>
+     
+        <button>DEL</button>
+  
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button class="key--operator" data-action="add">+</button>
+         
+       
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>  
+        <button class="key--operator" data-action="subtract">-</button>
+        
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button class="key--operator" data-action="multiply">*</button>
+        <button class="zero" >0</button>
+        <button class="key--operator" data-action="divide">÷</button>
+      
+        <button>.</button>
+       
+        <button class="span-two">=</button>
+
+    </div>
+
+<!--Javascript to have the calcgrid not display horizonally-->
+<style>
+.calculator-grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+margin-left: 0;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(4, 100px);
+    }
+.calculator-grid > button {
+      cursor: pointer;
+      font-size: 1rem;
+      border: solid rgb(3, 5, 0);
+      background-color: rgb(252, 248, 248)
+    }
+    .calculator-grid > button:hover {
+        background-color: #a9a9a9;
+      }
+
+    .output{
+        grid-column: 4 /-4;
+        background-color: transparent
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 10px;
+        word-wrap: break-word;
+        word-break: break-all;
+        
+      }
+
+    .output .previous-operand{
+        color: rgba(255,255, 255, 0.75);
+        font-size: 1.5rem;
+        margin: 0;
+      }
+
+    .output .current-operand{
+        color: rgb(105, 105, 105);
+        font-size: 2.5rem;
+        margin: 0;
+      }
+
+</style>
+
+</head>
+
+<footer> last Updated   </footer>
+
+</html>

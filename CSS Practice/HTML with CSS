@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- -->
+<header><u>
+    <div align="center"><marquee 
+        style="background-color: beige; border:solid;">
+        <h5><a href="https://i.imgur.com/RKN35tB.gif" alt="funny anime dance meme" >Brain power now up 30%!</a></h5></header></p>
+    </marquee></div></u></header>
+
+<head>
+    <link rel="stylesheet" href="/CSS Practice/CSS Practice Script.css" />
+</head> 
+<style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+li a {
+    display: block;
+    width: 90px;
+    height: 90px;
+    background-color:aliceblue;
+    border-radius: 50%;
+    ;
+  }
+li.active {
+  background-color: #043baa;
+  color:red;
+}
+li a:hover:not(.active) {
+  background-color:fuchsia;
+  color:yellow;
+}
+li {
+  text-align:center
+  
+}
+
+</style>
+
+<ul>
+    <li><a href="#Home">Home</a></li align:center>
+    <li><a href="#Projects">Projects</a></li>
+    <li><a href="#resume">Resume</a></li>
+    <li><a href="#Contact">Contact</a></li>
+  </ul>
+
+
+<body>
+    <div class="Myself"><h2> <p style="background-color:plum; font-style: oblique; font-size: 100px;">
+        <img width=300px src="Images\Me.jpg" align="left /"> Morgan's First WebPage</p></h2>
+    </div>
+
+</body>
+<div>
+        <p><h3 style="background-color: deeppink;  font-style: oblique;">This is my first project!<br></h3></p>
+</div>
+<body>
+    <p> I have 4 cats with my boyfriend: Luna, Nova, Phoenix and Tigger !!!!</p>
+    <div align="center" class="cats" style="background-color: aqua;"><marquee direction="down" >
+        <img width=200; src="\Images\Luna.jpg" alt="Where is Luna?"> 
+        <img width= 200; src="Images\Nova.JPG" alt="Where is Nova?">
+        <img width=200; src="Images\Phoenix and Tigger.jpeg" alt="Where are the chicken nuggets?"> 
+    </div></marquee></p>
+</body>
+
+    <p style="background-color: aliceblue;">My cute boyfriend (A.K.A Squishy) <img width="100; height=100 " src="https://media4.giphy.com/media/26BRv0ThflsHCqDrG/giphy.gif" alt="Moving heart gif"></p>
+        
+    <div align="center">
+        <img width="600; " src="Images\Bun Squishy.JPG" alt="My Squishy">
+    </div>
+
+
+   <p > I am excited to learn a new skill and showcase it in future projects. 
+    <img width=60; height=60; src="https://gifdb.com/images/high/qoobee-big-smile-0cgd7bx2fs1c1mfz.gif" alt="happy face gif"></p>
+</body>
+<footer>
+    <div align="right"> 
+        <p style="background-color: crimson"> <font color="white"> 1-800-NO-CALLS</p></font>
+    </div>
+</footer>
+</html>
